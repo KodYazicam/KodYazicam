@@ -74,24 +74,11 @@ const KodYazicam = {
 ## 📊 GitHub İstatistiklerim
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=KodYazicam&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=A78BFA&text_color=ffffff"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodYazicam&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=ffffff"/>
-</div>
-
-<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KodYazicam&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=KodYazicam&bg_color=0D0D0D&color=A78BFA&line=7C3AED&point=ffffff&area=true&hide_border=true" alt="Contribution Graph"/>
-</div>
-
----
-
-## 🏆 GitHub Başarıları
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KodYazicam&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies"/>
 </div>
 
 ---
