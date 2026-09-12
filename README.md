@@ -32,9 +32,33 @@ const KodYazicam = {
     devops:    ["Docker", "GitHub Actions", "Nginx", "Linux"],
     araçlar:   ["Git", "VS Code", "Postman", "Figma"],
   },
-  şuAn:         "Yeni projeler geliştiriyor ve açık kaynak katkıları yapıyor 🚀",
+  şuAn:         "Açık kaynak araçlar yazıyor: ctxpack, envsentinel, sparkcord, hookyard, svgforge 🚀",
   motto:        "Önce anlıyorum, sonra çözüyorum, en son yazıyorum.",
 };
+```
+
+---
+
+## 🚀 Open Source Tools
+
+Developer tools I actually use. Free under **KYAL-1.0** (use and fork, keep the credit).
+
+| Repo | What it does | Stack |
+| --- | --- | --- |
+| **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Pack a codebase into LLM-ready context. Gitignore, token budget, secret redaction. | TypeScript · CLI |
+| **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Lint `.env` against a schema. Scan secrets. Emit `.env.example` and `env.d.ts`. | TypeScript · CLI |
+| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions. | TypeScript · Discord |
+| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack, replay. | Python · FastAPI |
+| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals. | TypeScript · CLI |
+
+Also shipping: [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
+
+```bash
+npx ctxpack . -o prompt.md
+npx envsentinel check
+npx sparkcord init my-bot
+pipx run hookyard --port 4242
+npx svgforge banner --title my-tool -o banner.svg
 ```
 
 ---
@@ -74,6 +98,11 @@ const KodYazicam = {
 ## 📊 GitHub İstatistiklerim
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KodYazicam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodYazicam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=E5E7EB" alt="Top languages"/>
+</div>
+
+<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KodYazicam&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
 </div>
 
@@ -88,6 +117,7 @@ const KodYazicam = {
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-KodYazicam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KodYazicam)
+[![Instagram](https://img.shields.io/badge/Instagram-4veles-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/4veles)
 
 </div>
 
