@@ -54,11 +54,11 @@ Developer tools I actually use. Free under **KYAL-1.0** (use and fork, keep the 
 Also shipping: [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
 
 ```bash
-npx ctxpack . -o prompt.md
+npx @kodyazicam/ctxpack . -o prompt.md
 npx envsentinel check
 npx sparkcord init my-bot
 pipx run hookyard --port 4242
-npx svgforge banner --title my-tool -o banner.svg
+npx @kodyazicam/svgforge banner --title my-tool -o banner.svg
 ```
 
 ---
