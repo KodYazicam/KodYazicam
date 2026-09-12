@@ -98,16 +98,17 @@ npx svgforge banner --title my-tool -o banner.svg
 ## 📊 GitHub İstatistiklerim
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KodYazicam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodYazicam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=E5E7EB" alt="Top languages"/>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=KodYazicam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub stats"/>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KodYazicam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=E5E7EB" alt="Top languages"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KodYazicam&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=KodYazicam&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KodYazicam&bg_color=0D0D0D&color=A78BFA&line=7C3AED&point=ffffff&area=true&hide_border=true" alt="Contribution Graph"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KodYazicam&theme=tokyonight" alt="Profile details"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KodYazicam&theme=tokyonight" alt="Productive time"/>
 </div>
 
 ---
