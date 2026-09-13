@@ -1,57 +1,41 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=KodYazıcam&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Kod%20yazıyorum%2C%20sistem%20kuruyorum%2C%20çözüm%20üretiyorum.&descAlignY=55&descSize=18&animation=fadeIn" alt="KodYazıcam Banner"/>
-
-<!-- Animated Typing -->
-<a href="https://github.com/KodYazicam">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Fullstack+Web+Developer;System+Architect;Open+Source+Enthusiast;Backend+%26+Frontend+Engineer;Clean+Code+%7C+SOLID+%7C+DRY+%7C+KISS" alt="Typing SVG" />
-</a>
+<img src="https://raw.githubusercontent.com/KodYazicam/svgforge/main/examples/banner.svg" alt="KodYazicam" width="100%"/>
 
 <br/>
 
-<!-- Social Badges -->
-[![GitHub followers](https://img.shields.io/github/followers/KodYazicam?style=for-the-badge&logo=github&color=7C3AED&labelColor=0D0D0D)](https://github.com/KodYazicam?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/KodYazicam?style=for-the-badge&logo=github&color=7C3AED&labelColor=0D0D0D)](https://github.com/KodYazicam)
-[![Profile views](https://komarev.com/ghpvc/?username=KodYazicam&style=for-the-badge&color=7C3AED&labelColor=0D0D0D)](https://github.com/KodYazicam)
+**Developer tools I actually use.** Local CLIs, no telemetry, attribution license.
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-KodYazicam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KodYazicam)
+[![Instagram](https://img.shields.io/badge/Instagram-kodyazicam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kodyazicam)
 
 </div>
 
 ---
 
-## 👨‍💻 Hakkımda
+## About
 
-```typescript
-const KodYazicam = {
-  konum:        "Türkiye 🇹🇷",
-  roller:       ["Fullstack Developer", "System Architect", "Open Source Contributor"],
-  uzmanlıklar: {
-    frontend:  ["React", "Next.js", "TypeScript", "TailwindCSS"],
-    backend:   ["Node.js", "Express", "NestJS", "Python", "FastAPI"],
-    veritabanı:["PostgreSQL", "MongoDB", "Redis", "MySQL"],
-    devops:    ["Docker", "GitHub Actions", "Nginx", "Linux"],
-    araçlar:   ["Git", "VS Code", "Postman", "Figma"],
-  },
-  şuAn:         "Açık kaynak araçlar yazıyor: ctxpack, envsentinel, sparkcord, hookyard, svgforge 🚀",
-  motto:        "Önce anlıyorum, sonra çözüyorum, en son yazıyorum.",
-};
-```
+Türkiye. I write small tools that remove a daily annoyance (packing a repo for an LLM, linting `.env`, catching a webhook, drawing a README SVG without a CDN), then I use them.
 
----
+English first. TR: kod yazıyorum, sistem kuruyorum, çözüm üretiyorum.
 
-## 🚀 Open Source Tools
+What you can click in this org is TypeScript CLIs, a Python FastAPI inspector, and Discord bots. Nest / Mongo / Redis show up at work; they are not in these public repos.
 
-Developer tools I actually use. Free under **KYAL-1.0** (use and fork, keep the credit).
+## Open source tools
 
-| Repo | What it does | Stack |
+Free under **[KYAL-1.0](https://github.com/KodYazicam/ctxpack/blob/main/LICENSE)** (use and fork, keep the credit). Not OSI-approved.
+
+| Repo | What it does | Install |
 | --- | --- | --- |
-| **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Pack a codebase into LLM-ready context. Gitignore, token budget, secret redaction. | TypeScript · CLI |
-| **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Lint `.env` against a schema. Scan secrets. Emit `.env.example` and `env.d.ts`. | TypeScript · CLI |
-| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions. | TypeScript · Discord |
-| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack, replay. | Python · FastAPI |
-| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals. | TypeScript · CLI |
+| **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Pack a codebase into LLM-ready context. Nested gitignore, token budget, secret redaction. | `npx @kodyazicam/ctxpack . -o prompt.md` |
+| **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Lint `.env` against a schema. Scan secrets. Emit `.env.example` and `env.d.ts`. | `npx envsentinel check` |
+| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions. | `npx sparkcord init my-bot` |
+| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack, replay without SSRF. | `pipx run hookyard --port 4242` |
+| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals. | `npx @kodyazicam/svgforge banner --title x -o banner.svg` |
 
-Also shipping: [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
+Also shipping: [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) (self-hosted, encrypts bot tokens) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) (moderation + per-guild economy) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
 
 ```bash
 npx @kodyazicam/ctxpack . -o prompt.md
@@ -61,71 +45,16 @@ pipx run hookyard --port 4242
 npx @kodyazicam/svgforge banner --title my-tool -o banner.svg
 ```
 
----
+Banners in those READMEs are **files in the repo**, generated with svgforge — not capsule-render / github-readme-stats CDNs.
 
-## 🛠️ Teknoloji Yığıtım
+## Stack (evidenced here)
 
-### 🎨 Frontend
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+TypeScript · Node 20+ · Vitest · FastAPI · Discord.js v14 · SQLite · Docker · GitHub Actions
 
-### ⚙️ Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+## Contact
 
-### 🗄️ Veritabanı & Cache
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+- GitHub: [KodYazicam](https://github.com/KodYazicam)
+- Instagram: [kodyazicam](https://instagram.com/kodyazicam)
+- Security: private advisory on the relevant repo (see each `SECURITY.md`)
 
-### 🐳 DevOps & Araçlar
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## 📊 GitHub İstatistiklerim
-
-<div align="center">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=KodYazicam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub stats"/>
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KodYazicam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=E5E7EB" alt="Top languages"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=KodYazicam&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KodYazicam&theme=tokyonight" alt="Profile details"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KodYazicam&theme=tokyonight" alt="Productive time"/>
-</div>
-
----
-
-## 📬 İletişim
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-KodYazicam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KodYazicam)
-[![Instagram](https://img.shields.io/badge/Instagram-kodyazicam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kodyazicam)
-
-</div>
-
----
-
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" alt="Footer"/>
-  
-  <sub>⚡ Kod yazıyorum, sistem kuruyorum, çözüm üretiyorum — <strong>KodYazicam</strong></sub>
-</div>
+<sub>KodYazicam — tools first, badges second.</sub>
