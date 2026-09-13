@@ -4,7 +4,7 @@
 
 <br/>
 
-**Developer tools I actually use.** Local CLIs, no telemetry, attribution license.
+**Developer tools I actually use.** Local CLIs, no telemetry, attribution license. Clone the repo — nothing is published to npm or PyPI.
 
 <br/>
 
@@ -27,23 +27,15 @@ What you can click in this org is TypeScript CLIs, a Python FastAPI inspector, a
 
 Free under **[KYAL-1.0](https://github.com/KodYazicam/ctxpack/blob/main/LICENSE)** (use and fork, keep the credit). Not OSI-approved.
 
-| Repo | What it does | Install |
+| Repo | What it does | Run |
 | --- | --- | --- |
-| **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Pack a codebase into LLM-ready context. Nested gitignore, token budget, secret redaction. | `npx @kodyazicam/ctxpack . -o prompt.md` |
-| **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Lint `.env` against a schema. Scan secrets. Emit `.env.example` and `env.d.ts`. | `npx envsentinel check` |
-| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions. | `npx sparkcord init my-bot` |
-| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack, replay without SSRF. | `pipx run hookyard --port 4242` |
-| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals. | `npx @kodyazicam/svgforge banner --title x -o banner.svg` |
+| **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Pack a codebase into LLM-ready context. Nested gitignore, token budget, secret redaction. | `git clone` → `npm ci && npm run build` → `node dist/cli.js . -o prompt.md` |
+| **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Lint `.env` against a schema. Scan secrets. Emit `.env.example` and `env.d.ts`. | `git clone` → `npm ci && npm run build` → `node dist/cli.js check` |
+| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions. | `git clone` → `npm ci && npm run build` → `node dist/cli.js init my-bot` |
+| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack, replay without SSRF. | `git clone` → `pip install -e .` → `hookyard --port 4242` |
+| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals. | `git clone` → `npm ci && npm run build` → `node dist/cli.js banner --title x -o banner.svg` |
 
 Also shipping: [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) (self-hosted, encrypts bot tokens) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) (moderation + per-guild economy) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
-
-```bash
-npx @kodyazicam/ctxpack . -o prompt.md
-npx envsentinel check
-npx sparkcord init my-bot
-pipx run hookyard --port 4242
-npx @kodyazicam/svgforge banner --title my-tool -o banner.svg
-```
 
 Banners in those READMEs are **files in the repo**, generated with svgforge — not capsule-render / github-readme-stats CDNs.
 
