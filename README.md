@@ -118,7 +118,7 @@ npx @kodyazicam/svgforge banner --title my-tool -o banner.svg
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-KodYazicam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KodYazicam)
-[![Instagram](https://img.shields.io/badge/Instagram-4veles-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/4veles)
+[![Instagram](https://img.shields.io/badge/Instagram-kodyazicam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kodyazicam)
 
 </div>
 
