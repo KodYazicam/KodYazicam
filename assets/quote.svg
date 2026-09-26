@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="164" viewBox="0 0 480 164" role="img" aria-label="Önce anlıyorum, sonra çözüyorum, en son">
+
+  <rect width="480" height="164" rx="16" fill="#0f0c29" stroke="#302b63"/>
+  <rect x="0" y="0" width="8" height="164" rx="4" fill="#a78bfa"/>
+  <text x="24" y="52" fill="#a78bfa" font-family="Georgia, 'Times New Roman', serif" font-size="56">“</text>
+
+  <text x="72" y="64" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-style="italic">Önce anlıyorum, sonra çözüyorum, en son</text>
+  <text x="72" y="88" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-style="italic">yazıyorum.</text>
+
+  <text x="452" y="136" text-anchor="end" fill="#c4b5fd" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">— KodYazicam</text>
+
+</svg>

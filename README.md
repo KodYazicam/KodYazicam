@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=KodYazıcam&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Kod%20yazıyorum%2C%20sistem%20kuruyorum%2C%20çözüm%20üretiyorum.&descAlignY=55&descSize=18&animation=fadeIn" alt="KodYazıcam Banner"/>
+<!-- Header Banner — generated locally with svgforge (no CDN) -->
+<img width="100%" src="assets/banner.svg" alt="KodYazıcam Banner"/>
 
 <!-- Animated Typing -->
 <a href="https://github.com/KodYazicam">
@@ -47,11 +47,19 @@ Developer tools I actually use. Free under **KYAL-1.0** (use and fork, keep the 
 | --- | --- | --- |
 | **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Pack a codebase into LLM-ready context. Gitignore, token budget, secret redaction. | TypeScript · CLI |
 | **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Lint `.env` against a schema. Scan secrets. Emit `.env.example` and `env.d.ts`. | TypeScript · CLI |
-| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions. | TypeScript · Discord |
-| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack, replay. | Python · FastAPI |
-| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals. | TypeScript · CLI |
+| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions, `validate` linter. | TypeScript · Discord |
+| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack + generic HMAC, replay. | Python · FastAPI |
+| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals, quote cards. | TypeScript · CLI |
 
-Also shipping: [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
+Also shipping: [wabot-aq](https://github.com/KodYazicam/wabot-aq) (WhatsApp bot, Baileys 7) · [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) (PySide6 Discord panel) · [LogYazicam](https://github.com/KodYazicam/LogYazicam) (Discord logging bot) · [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
+
+<div align="center">
+  <img src="assets/terminal.svg" alt="kodyazicam@github" width="100%">
+</div>
+
+<div align="center">
+  <img src="assets/quote.svg" alt="KodYazicam quote" width="100%">
+</div>
 
 ```bash
 git clone https://github.com/KodYazicam/ctxpack.git && cd ctxpack && npm ci && npm run build
@@ -122,7 +130,6 @@ node dist/cli.js . -o prompt.md
 ---
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" alt="Footer"/>
-  
+
   <sub>⚡ Kod yazıyorum, sistem kuruyorum, çözüm üretiyorum — <strong>KodYazicam</strong></sub>
 </div>
