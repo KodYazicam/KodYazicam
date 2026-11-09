@@ -70,6 +70,15 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 ---
 
+## Katkı
+
+En hızlı başlangıç `good first issue` etiketli konular:
+
+- [ctxpack](https://github.com/KodYazicam/ctxpack/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [envsentinel](https://github.com/KodYazicam/envsentinel/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [svgforge](https://github.com/KodYazicam/svgforge/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [sparkcord](https://github.com/KodYazicam/sparkcord/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
 ## İletişim
 
 - İlgili repoda issue veya discussion açabilirsin.
