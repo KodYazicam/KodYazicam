@@ -54,6 +54,36 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
 
 ---
 
+## Contribution stats
+
+As of 2026-11-09. Counts are authored by me across all repositories; historical work is included.
+
+**Pull requests:** 93 total · 79 merged
+
+| # | Repository | PRs |
+| ---: | --- | ---: |
+| 1 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
+| 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
+| 3 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
+| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 8 |
+| 5 | [libredb/libredb-database](https://github.com/libredb/libredb-database) | 3 |
+
+<sub>Also tied at 3: `ctxpack`, `envsentinel`, `svgforge`, `sparkcord`.</sub>
+
+**Issues:** 64 total · 4 open
+
+| # | Repository | Issues |
+| ---: | --- | ---: |
+| 1 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
+| 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
+| 3 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 8 |
+| 4 | [svgforge](https://github.com/KodYazicam/svgforge) | 4 |
+| 5 | [sparkcord](https://github.com/KodYazicam/sparkcord) | 4 |
+
+<sub>Also tied at 4: `ctxpack`, `envsentinel`.</sub>
+
+---
+
 ## Toolbox
 
 - **Languages:** TypeScript · JavaScript · Python · SQL
@@ -95,4 +125,4 @@ The fastest way in is a `good first issue`:
 - GitHub: [@KodYazicam](https://github.com/KodYazicam)
 - Website: [kodyazicam.github.io/KodYazicam](https://kodyazicam.github.io/KodYazicam/)
 
-<sub>Profile assets are generated locally with <a href="https://github.com/KodYazicam/svgforge">svgforge</a>.</sub>
+<sub>Profile assets are generated locally with <a href="https://github.com/KodYazicam/svgforge">svgforge</a> · Content licensed <a href="./LICENSE">CC-BY-4.0</a>.</sub>
