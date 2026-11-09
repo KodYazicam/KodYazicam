@@ -25,7 +25,7 @@ Yapay zeka çağı için **local-first geliştirici araçları** yazıyorum: kay
 
 Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envsentinel` ve `hookyard` ayrıca AI ajanları için MCP sunucusu sunar.
 
-> **Üzerinde çalışıyorum:** Tüm araçları tek bir CLI ve tek bir MCP sunucusu olarak açan `kodyaz` giriş noktası.
+> **Üzerinde çalışıyorum:** Tüm araçları tek bir CLI ve tek bir MCP sunucusu olarak açan `kodyaz` giriş noktası. [Suite mimarisi](./docs/SUITE.md).
 
 ---
 
@@ -66,6 +66,7 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 - **Güvenlik bir özelliktir.** Secret redaksiyonu, HMAC doğrulama, SSRF koruması ve local-only varsayılanlar.
 - **Küçük yüzey.** Her şeyi yapan bir platform yerine tek ve keskin bir CLI.
 - **Sahte metrik yok.** Bir şey yayınlanmadıysa README bunu açıkça söyler.
+- **Sorumlu otomasyon.** [Politikayı oku](./ETHICS.md).
 
 ---
 

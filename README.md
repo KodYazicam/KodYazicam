@@ -26,7 +26,7 @@ I care about tools that are **small, offline by default, secure by design, and d
 
 All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `envsentinel`, and `hookyard` also expose MCP servers for AI agents.
 
-> **In progress:** a single `kodyaz` entry point that exposes the suite as one CLI and one MCP server.
+> **In progress:** a single `kodyaz` entry point that exposes the suite as one CLI and one MCP server. See the [suite architecture](./docs/SUITE.md).
 
 <div align="center">
   <img src="./assets/terminal.svg" alt="Terminal: ctxpack, envsentinel, hookyard, svgforge" width="100%" />
@@ -71,6 +71,7 @@ Currently deepening: PostgreSQL, Redis, and production observability.
 - **Security is a feature.** Secret redaction, HMAC verification, SSRF guards, and local-only defaults.
 - **Small surfaces.** Prefer one sharp CLI over a platform that does everything.
 - **No fake metrics.** If something is not published, the README says so.
+- **Responsible automation.** Read the [policy](./ETHICS.md).
 
 <div align="center">
   <img src="./assets/quote.svg" alt="Ship tools that work offline." width="100%" />
