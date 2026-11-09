@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="116" viewBox="0 0 640 116" role="img" aria-label="Focus">
+
+  <rect width="640" height="116" rx="16" fill="#0f0c29" stroke="#302b63"/>
+  <text x="28" y="36" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700">Focus</text>
+  <rect x="28" y="64" width="108" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
+  <text x="82" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">TypeScript</text>
+  <rect x="146" y="64" width="76" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
+  <text x="184" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Python</text>
+  <rect x="232" y="64" width="52" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
+  <text x="258" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">MCP</text>
+  <rect x="294" y="64" width="132" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
+  <text x="360" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Offline-first</text>
+  <rect x="436" y="64" width="108" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
+  <text x="490" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Apache-2.0</text>
+
+</svg>
