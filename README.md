@@ -1,135 +1,87 @@
 <div align="center">
-
-<!-- Header Banner — generated locally with svgforge (no CDN) -->
-<img width="100%" src="assets/banner.svg" alt="KodYazıcam Banner"/>
-
-<!-- Animated Typing -->
-<a href="https://github.com/KodYazicam">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Fullstack+Web+Developer;System+Architect;Open+Source+Enthusiast;Backend+%26+Frontend+Engineer;Clean+Code+%7C+SOLID+%7C+DRY+%7C+KISS" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- Social Badges -->
-[![GitHub followers](https://img.shields.io/github/followers/KodYazicam?style=for-the-badge&logo=github&color=7C3AED&labelColor=0D0D0D)](https://github.com/KodYazicam?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/KodYazicam?style=for-the-badge&logo=github&color=7C3AED&labelColor=0D0D0D)](https://github.com/KodYazicam)
-[![Profile views](https://komarev.com/ghpvc/?username=KodYazicam&style=for-the-badge&color=7C3AED&labelColor=0D0D0D)](https://github.com/KodYazicam)
-
+  <img src="./assets/banner.svg" alt="Batuhan — local-first developer tools for the AI era" width="100%" />
+  <img src="./assets/pills.svg" alt="TypeScript, Python, MCP, offline-first, Apache-2.0" width="100%" />
 </div>
 
----
+# Hi, I'm Batuhan
 
-## 👨‍💻 Hakkımda
+I build **local-first developer tools** for the AI era: CLIs and MCP servers that keep source code, secrets, and webhooks on your machine.
 
-```typescript
-const KodYazicam = {
-  konum:        "Türkiye 🇹🇷",
-  roller:       ["Fullstack Developer", "System Architect", "Open Source Contributor"],
-  uzmanlıklar: {
-    frontend:  ["React", "Next.js", "TypeScript", "TailwindCSS"],
-    backend:   ["Node.js", "Express", "NestJS", "Python", "FastAPI"],
-    veritabanı:["PostgreSQL", "MongoDB", "Redis", "MySQL"],
-    devops:    ["Docker", "GitHub Actions", "Nginx", "Linux"],
-    araçlar:   ["Git", "VS Code", "Postman", "Figma"],
-  },
-  şuAn:         "Açık kaynak araçlar yazıyor: ctxpack, envsentinel, sparkcord, hookyard, svgforge 🚀",
-  motto:        "Önce anlıyorum, sonra çözüyorum, en son yazıyorum.",
-};
-```
+I care about tools that are **small, offline by default, secure by design, and documented like products** — not demos.
+
+**English** · [Türkçe](./README.tr.md)
+
+[Flagship tools](#flagship-tools) · [Why local-first](#why-local-first) · [Also building](#also-building) · [Toolbox](#toolbox) · [How I work](#how-i-work) · [Contact](#contact)
 
 ---
 
-## 🚀 Open Source Tools
+## Flagship tools
 
-Developer tools I actually use. Free under **KYAL-1.0** (use and fork, keep the credit). Clone the repo — not on npm or PyPI.
-
-| Repo | What it does | Stack |
+| Project | What it does | Install |
 | --- | --- | --- |
-| **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Pack a codebase into LLM-ready context. Gitignore, token budget, secret redaction. | TypeScript · CLI |
-| **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Lint `.env` against a schema. Scan secrets. Emit `.env.example` and `env.d.ts`. | TypeScript · CLI |
-| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | File-based Discord.js v14 framework. Slash + prefix, cooldowns, permissions, `validate` linter. | TypeScript · Discord |
-| **[hookyard](https://github.com/KodYazicam/hookyard)** | Local webhook inspector. Catch, verify GitHub/Stripe/Slack + generic HMAC, replay. | Python · FastAPI |
-| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generate README SVGs locally. Banners, stats, skill bars, terminals, quote cards. | TypeScript · CLI |
+| **[ctxpack](https://github.com/KodYazicam/ctxpack)** | Packs a repository into an LLM-ready prompt. Respects `.gitignore`, budgets tokens, redacts secrets. Ships an MCP server. | `npm i -g @kodyazicam/ctxpack` |
+| **[envsentinel](https://github.com/KodYazicam/envsentinel)** | Validates `.env` against a JSON schema, scans for leaked secrets, and generates `.env.example` plus TypeScript types. | `npm i -g @kodyazicam/envsentinel` |
+| **[svgforge](https://github.com/KodYazicam/svgforge)** | Generates README banners, cards, and stats as committed SVG files. 32 card types, 22 themes, no render service. | `npm i -g @kodyazicam/svgforge` |
+| **[hookyard](https://github.com/KodYazicam/hookyard)** | Inspects, verifies, and replays webhooks locally. GitHub, Stripe, Slack, and Discord signatures; SSRF-safe replay. | [Source install](https://github.com/KodYazicam/hookyard#install) |
 
-Also shipping: [wabot-aq](https://github.com/KodYazicam/wabot-aq) (WhatsApp bot, Baileys 7) · [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) (PySide6 Discord panel) · [LogYazicam](https://github.com/KodYazicam/LogYazicam) (Discord logging bot) · [discord-music-panel](https://github.com/KodYazicam/discord-music-panel) · [Stribog-Bot](https://github.com/KodYazicam/Stribog-Bot) · [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)
+All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `envsentinel`, and `hookyard` also expose MCP servers for AI agents.
 
-<div align="center">
-  <img src="assets/terminal.svg" alt="kodyazicam@github" width="100%">
-</div>
+> **In progress:** a single `kodyaz` entry point that exposes the suite as one CLI and one MCP server.
 
 <div align="center">
-  <img src="assets/quote.svg" alt="KodYazicam quote" width="100%">
-</div>
-
-```bash
-git clone https://github.com/KodYazicam/ctxpack.git && cd ctxpack && npm ci && npm run build
-node dist/cli.js . -o prompt.md
-```
-
----
-
-## 🛠️ Teknoloji Yığıtım
-
-### 🎨 Frontend
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### ⚙️ Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### 🗄️ Veritabanı & Cache
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 🐳 DevOps & Araçlar
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## 📊 GitHub İstatistiklerim
-
-<div align="center">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=KodYazicam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub stats"/>
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KodYazicam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=E5E7EB" alt="Top languages"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=KodYazicam&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KodYazicam&theme=tokyonight" alt="Profile details"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KodYazicam&theme=tokyonight" alt="Productive time"/>
+  <img src="./assets/terminal.svg" alt="Terminal: ctxpack, envsentinel, hookyard, svgforge" width="100%" />
 </div>
 
 ---
 
-## 📬 İletişim
+## Why local-first?
+
+- **Your code stays yours.** No upload, no account, no telemetry.
+- **Works when the network does not.** Air-gapped machines, CI runners, locked-down laptops.
+- **Composable by design.** Plain files in, plain files out. Every tool is scriptable.
+- **Agent-ready.** MCP lets Claude, Cursor, and other clients call the tools directly.
+
+---
+
+## Also building
+
+| Project | Status | What it is |
+| --- | --- | --- |
+| **[sparkcord](https://github.com/KodYazicam/sparkcord)** | beta | File-based Discord.js v14 framework with slash + prefix commands, cooldowns, permissions, and a validator. |
+| **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | stable | Self-hosted Discord logging bot with per-guild routing, filters, and 60 event keys. |
+| **[discord-music-panel](https://github.com/KodYazicam/discord-music-panel)** | stable | Self-hosted multi-bot Discord music panel with a React dashboard. |
+| **[awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)** | community | Curated list of developer portfolios. MIT, contributions welcome. |
+
+---
+
+## Toolbox
+
+- **Languages:** TypeScript · JavaScript · Python · SQL
+- **Backend:** Node.js · FastAPI · SQLite · REST · WebSockets
+- **Frontend:** React · Tailwind CSS · PySide6
+- **Tooling:** Docker · GitHub Actions · pytest · Vitest · Linux
+
+Currently deepening: PostgreSQL, Redis, and production observability.
+
+---
+
+## How I work
+
+- **Docs are part of the product.** Every repo ships install steps, examples, limits, and troubleshooting.
+- **Security is a feature.** Secret redaction, HMAC verification, SSRF guards, and local-only defaults.
+- **Small surfaces.** Prefer one sharp CLI over a platform that does everything.
+- **No fake metrics.** If something is not published, the README says so.
 
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-KodYazicam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KodYazicam)
-[![Instagram](https://img.shields.io/badge/Instagram-kodyazicam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kodyazicam)
-
+  <img src="./assets/quote.svg" alt="Ship tools that work offline." width="100%" />
 </div>
 
 ---
 
-<div align="center">
+## Contact
 
-  <sub>⚡ Kod yazıyorum, sistem kuruyorum, çözüm üretiyorum — <strong>KodYazicam</strong></sub>
-</div>
+- Open an issue or discussion in the relevant repository.
+- For security reports, use the `SECURITY.md` in that repository.
+- GitHub: [@KodYazicam](https://github.com/KodYazicam)
+
+<sub>Profile assets are generated locally with <a href="https://github.com/KodYazicam/svgforge">svgforge</a>.</sub>
