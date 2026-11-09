@@ -79,6 +79,15 @@ Currently deepening: PostgreSQL, Redis, and production observability.
 
 ---
 
+## Contributing
+
+The fastest way in is a `good first issue`:
+
+- [ctxpack](https://github.com/KodYazicam/ctxpack/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [envsentinel](https://github.com/KodYazicam/envsentinel/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [svgforge](https://github.com/KodYazicam/svgforge/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [sparkcord](https://github.com/KodYazicam/sparkcord/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
 ## Contact
 
 - Open an issue or discussion in the relevant repository.
