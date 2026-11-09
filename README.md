@@ -58,17 +58,17 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
 
 As of 2026-11-09. Counts are authored by me across all repositories; historical work is included.
 
-**Pull requests:** 97 total · 83 merged
+**Pull requests:** 110 total · 96 merged
 
 | # | Repository | PRs |
 | ---: | --- | ---: |
 | 1 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
 | 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 3 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
-| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 9 |
-| 5= | [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel), [svgforge](https://github.com/KodYazicam/svgforge) | 4 each |
+| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 10 |
+| 5= | [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel) | 6 each |
 
-<sub>Also at 3: `sparkcord`, `libredb/libredb-database`.</sub>
+<sub>Also at 5: `svgforge`; at 4: `sparkcord`, `discord-music-panel`; at 3: `hookyard`, `libredb/libredb-database`.</sub>
 
 **Issues:** 65 total · 1 open
 
