@@ -53,17 +53,17 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 2026-11-09 itibarıyla. Sayılar tüm repolarda benim açtığım PR ve issue'ları sayar; eski çalışmalar dahildir.
 
-**Pull request:** 110 toplam · 96 merge
+**Pull request:** 113 toplam · 98 merge
 
 | # | Repo | PR |
 | ---: | --- | ---: |
 | 1 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
 | 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 3 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
-| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 10 |
+| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 11 |
 | 5= | [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel) | 6'şar |
 
-<sub>5'er adetle: `svgforge`; 4'er adetle: `sparkcord`, `discord-music-panel`; 3'er adetle: `hookyard`, `libredb/libredb-database`.</sub>
+<sub>5'er adetle: `svgforge`; 4'er adetle: `sparkcord`, `discord-music-panel`; 3'er adetle: `Stribog-Bot`, `hookyard`, `libredb/libredb-database`; 2'şer adetle: `LogYazicam`.</sub>
 
 **Issue:** 65 toplam · 1 açık
 
