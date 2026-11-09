@@ -53,29 +53,29 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 2026-11-09 itibarıyla. Sayılar tüm repolarda benim açtığım PR ve issue'ları sayar; eski çalışmalar dahildir.
 
-**Pull request:** 93 toplam · 79 merge
+**Pull request:** 97 toplam · 83 merge
 
 | # | Repo | PR |
 | ---: | --- | ---: |
 | 1 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
 | 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 3 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
-| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 8 |
-| 5 | [libredb/libredb-database](https://github.com/libredb/libredb-database) | 3 |
+| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 9 |
+| 5= | [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel), [svgforge](https://github.com/KodYazicam/svgforge) | 4'er |
 
-<sub>3'er adetle eşit: `ctxpack`, `envsentinel`, `svgforge`, `sparkcord`.</sub>
+<sub>3'er adetle: `sparkcord`, `libredb/libredb-database`.</sub>
 
-**Issue:** 64 toplam · 4 açık
+**Issue:** 65 toplam · 1 açık
 
 | # | Repo | Issue |
 | ---: | --- | ---: |
 | 1 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
-| 3 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 8 |
-| 4 | [svgforge](https://github.com/KodYazicam/svgforge) | 4 |
-| 5 | [sparkcord](https://github.com/KodYazicam/sparkcord) | 4 |
+| 3 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 9 |
+| 4= | [sparkcord](https://github.com/KodYazicam/sparkcord), [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel), [svgforge](https://github.com/KodYazicam/svgforge) | 4'er |
 
-<sub>4'er adetle eşit: `ctxpack`, `envsentinel`.</sub>
+<sub>Açık tek issue `sparkcord#8`; <a href="https://github.com/bongurishi">@bongurishi</a>'ye atandı.</sub>
+
 
 ---
 
