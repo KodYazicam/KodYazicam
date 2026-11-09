@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kodyazicam.github.io/KodYazicam/sitemap.xml
