@@ -9,7 +9,7 @@ This is the standard I hold my public work to. It is intentionally short.
 - **No credential exfiltration.** Secrets stay on the machine that owns them. Tools may read a credential to perform a local action; they must never transmit it to a third party.
 - **Security is documented.** Every project with a network surface ships a `SECURITY.md` and a threat model.
 - **Honest READMEs.** If a package is not published, the README says so. If a feature is experimental, it is labeled.
-- **OSI-approved licenses.** Public tools use Apache-2.0, MIT, or GPL-3.0 where an upstream license requires it. Custom "open source" licenses are not used.
+- **OSI-approved licenses.** Active public tools use Apache-2.0, MIT, or GPL-3.0 where an upstream license requires it. Archived experiments may retain their original license.
 
 ## What I do not ship
 
