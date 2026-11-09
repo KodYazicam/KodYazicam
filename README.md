@@ -9,7 +9,7 @@ I build **local-first developer tools** for the AI era: CLIs and MCP servers tha
 
 I care about tools that are **small, offline by default, secure by design, and documented like products** — not demos.
 
-**English** · [Türkçe](./README.tr.md)
+**English** · [Türkçe](./README.tr.md) · [Website](https://kodyazicam.github.io/KodYazicam/)
 
 [Flagship tools](#flagship-tools) · [Why local-first](#why-local-first) · [Also building](#also-building) · [Toolbox](#toolbox) · [How I work](#how-i-work) · [Contact](#contact)
 
@@ -84,5 +84,6 @@ Currently deepening: PostgreSQL, Redis, and production observability.
 - Open an issue or discussion in the relevant repository.
 - For security reports, use the `SECURITY.md` in that repository.
 - GitHub: [@KodYazicam](https://github.com/KodYazicam)
+- Website: [kodyazicam.github.io/KodYazicam](https://kodyazicam.github.io/KodYazicam/)
 
 <sub>Profile assets are generated locally with <a href="https://github.com/KodYazicam/svgforge">svgforge</a>.</sub>

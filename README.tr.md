@@ -8,7 +8,7 @@ Yapay zeka çağı için **local-first geliştirici araçları** yazıyorum: kay
 
 Önem verdiğim şey **küçük, varsayılan olarak çevrimdışı çalışan, güvenli ve ürün gibi dokümante edilmiş** araçlar — demo değil.
 
-[English](./README.md) · **Türkçe**
+[English](./README.md) · **Türkçe** · [Website](https://kodyazicam.github.io/KodYazicam/)
 
 [Öne çıkan araçlar](#öne-çıkan-araçlar) · [Neden local-first?](#neden-local-first) · [Diğer projeler](#diğer-projeler) · [Araç kutusu](#araç-kutusu) · [Nasıl çalışıyorum](#nasıl-çalışıyorum) · [İletişim](#i̇letişim)
 
@@ -75,5 +75,6 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 - İlgili repoda issue veya discussion açabilirsin.
 - Güvenlik bildirimleri için o repodaki `SECURITY.md` dosyasını kullan.
 - GitHub: [@KodYazicam](https://github.com/KodYazicam)
+- Website: [kodyazicam.github.io/KodYazicam](https://kodyazicam.github.io/KodYazicam/)
 
 <sub>Profil görselleri <a href="https://github.com/KodYazicam/svgforge">svgforge</a> ile yerelde üretilir.</sub>
