@@ -56,33 +56,33 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
 
 ## Contribution stats
 
-As of 2026-11-09. Counts are authored by me across all repositories; historical work is included.
+As of 2026-11-11. Counts are authored by me across all repositories; historical work is included.
 
-**Pull requests:** 114 total · 99 merged
+**Pull requests:** 188 total · 172 merged
 
 | # | Repository | PRs |
 | ---: | --- | ---: |
-| 1 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
-| 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
-| 3 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
-| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 12 |
-| 5= | [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel) | 6 each |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 49 |
+| 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
+| 3 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
+| 4 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
+| 5= | [KodYazicam](https://github.com/KodYazicam/KodYazicam), [svgforge](https://github.com/KodYazicam/svgforge) | 13 each |
 
-<sub>Also at 5: `svgforge`; at 4: `sparkcord`, `discord-music-panel`; at 3: `Stribog-Bot`, `hookyard`, `libredb/libredb-database`; at 2: `LogYazicam`, `awesome-developer-portfolios`.</sub>
+<sub>Also at 10: `discord-music-panel`, `hookyard`; at 8: `Stribog-Bot`; at 6: `ctxpack`, `envsentinel`; at 4: `sparkcord`; at 3: `libredb/libredb-database`; at 2: `awesome-developer-portfolios`; 13 further PRs in upstream repositories.</sub>
 
-**Issues:** 70 total · 6 open
+**Issues:** 145 total · 4 open
 
 | # | Repository | Issues |
 | ---: | --- | ---: |
-| 1 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
-| 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
-| 3 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 9 |
-| 4 | [svgforge](https://github.com/KodYazicam/svgforge) | 5 |
-| 5= | [sparkcord](https://github.com/KodYazicam/sparkcord), [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel) | 4 each |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 53 |
+| 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
+| 3 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
+| 4 | [svgforge](https://github.com/KodYazicam/svgforge) | 12 |
+| 5 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 10 |
 
-<sub>Also at 3: `hookyard`; at 2: `Stribog-Bot`, `LogYazicam`, `discord-music-panel`; at 1: `awesome-developer-portfolios`, `libredb/libredb-studio`.</sub>
+<sub>Also at 9: `hookyard`; at 8: `discord-music-panel`; at 6: `Stribog-Bot`; at 4: `ctxpack`, `envsentinel`, `sparkcord`; at 1: `awesome-developer-portfolios` and `libredb/libredb-studio`.</sub>
 
-<sub>Open: <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (assigned to <a href="https://github.com/bongurishi">@bongurishi</a>), <a href="https://github.com/KodYazicam/discord-music-panel/issues/11">discord-music-panel#11</a>, <a href="https://github.com/KodYazicam/LogYazicam/issues/9">LogYazicam#9</a>, <a href="https://github.com/KodYazicam/Stribog-Bot/issues/10">Stribog-Bot#10</a>, <a href="https://github.com/KodYazicam/svgforge/issues/18">svgforge#18</a>, <a href="https://github.com/KodYazicam/hookyard/issues/8">hookyard#8</a>.</sub>
+<sub>Open: <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (assigned to <a href="https://github.com/bongurishi">@bongurishi</a>), <a href="https://github.com/KodYazicam/discord-music-panel/issues/23">discord-music-panel#23</a>, <a href="https://github.com/KodYazicam/Stribog-Bot/issues/19">Stribog-Bot#19</a>, <a href="https://github.com/KodYazicam/svgforge/issues/32">svgforge#32</a>.</sub>
 
 
 ---
