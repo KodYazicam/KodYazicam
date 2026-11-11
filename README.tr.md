@@ -56,33 +56,33 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 ## Katkı istatistikleri
 
-2026-11-09 itibarıyla. Sayılar tüm repolarda benim açtığım PR ve issue'ları sayar; eski çalışmalar dahildir.
+2026-11-11 itibarıyla. Sayılar tüm repolarda benim açtığım PR ve issue'ları sayar; eski çalışmalar dahildir.
 
-**Pull request:** 114 toplam · 99 merge
+**Pull request:** 188 toplam · 172 merge
 
 | # | Repo | PR |
 | ---: | --- | ---: |
-| 1 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
-| 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
-| 3 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
-| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 12 |
-| 5= | [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel) | 6'şar |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 49 |
+| 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
+| 3 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
+| 4 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
+| 5= | [KodYazicam](https://github.com/KodYazicam/KodYazicam), [svgforge](https://github.com/KodYazicam/svgforge) | 13'er |
 
-<sub>5'er adetle: `svgforge`; 4'er adetle: `sparkcord`, `discord-music-panel`; 3'er adetle: `Stribog-Bot`, `hookyard`, `libredb/libredb-database`; 2'şer adetle: `LogYazicam`, `awesome-developer-portfolios`.</sub>
+<sub>10'ar adetle: `discord-music-panel`, `hookyard`; 8'er adetle: `Stribog-Bot`; 6'şar adetle: `ctxpack`, `envsentinel`; 4'er adetle: `sparkcord`; 3'er adetle: `libredb/libredb-database`; 2'şer adetle: `awesome-developer-portfolios`; upstream repolarda 13 PR daha.</sub>
 
-**Issue:** 70 toplam · 6 açık
+**Issue:** 145 toplam · 4 açık
 
 | # | Repo | Issue |
 | ---: | --- | ---: |
-| 1 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
-| 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
-| 3 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 9 |
-| 4 | [svgforge](https://github.com/KodYazicam/svgforge) | 5 |
-| 5= | [sparkcord](https://github.com/KodYazicam/sparkcord), [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel) | 4'er |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 53 |
+| 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
+| 3 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
+| 4 | [svgforge](https://github.com/KodYazicam/svgforge) | 12 |
+| 5 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 10 |
 
-<sub>3'er adetle: `hookyard`; 2'şer adetle: `Stribog-Bot`, `LogYazicam`, `discord-music-panel`; 1'er adetle: `awesome-developer-portfolios`, `libredb/libredb-studio`.</sub>
+<sub>9'ar adetle: `hookyard`; 8'er adetle: `discord-music-panel`; 6'şar adetle: `Stribog-Bot`; 4'er adetle: `ctxpack`, `envsentinel`, `sparkcord`; 1'er adetle: `awesome-developer-portfolios` ve `libredb/libredb-studio`.</sub>
 
-<sub>Açık: <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (<a href="https://github.com/bongurishi">@bongurishi</a>'ye atandı), <a href="https://github.com/KodYazicam/discord-music-panel/issues/11">discord-music-panel#11</a>, <a href="https://github.com/KodYazicam/LogYazicam/issues/9">LogYazicam#9</a>, <a href="https://github.com/KodYazicam/Stribog-Bot/issues/10">Stribog-Bot#10</a>, <a href="https://github.com/KodYazicam/svgforge/issues/18">svgforge#18</a>, <a href="https://github.com/KodYazicam/hookyard/issues/8">hookyard#8</a>.</sub>
+<sub>Açık: <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (<a href="https://github.com/bongurishi">@bongurishi</a>'ye atandı), <a href="https://github.com/KodYazicam/discord-music-panel/issues/23">discord-music-panel#23</a>, <a href="https://github.com/KodYazicam/Stribog-Bot/issues/19">Stribog-Bot#19</a>, <a href="https://github.com/KodYazicam/svgforge/issues/32">svgforge#32</a>.</sub>
 
 
 ---
