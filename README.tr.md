@@ -58,25 +58,25 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 2026-11-12 itibarıyla. Sayılar tüm repolarda benim açtığım PR ve issue'ları sayar; eski çalışmalar dahildir.
 
-**Pull request:** 193 toplam · 177 merge
+**Pull request:** 196 toplam · 180 merge
 
 | # | Repo | PR |
 | ---: | --- | ---: |
-| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 51 |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 53 |
 | 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
-| 3 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
-| 4= | [libredb/libredb-studio](https://github.com/libredb/libredb-studio), [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 16'şar |
+| 3= | [wabot-aq](https://github.com/KodYazicam/wabot-aq), [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 17'şer |
+| 5 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
 
 <sub>13'er adetle: `svgforge`; 10'ar adetle: `discord-music-panel`, `hookyard`; 8'er adetle: `Stribog-Bot`; 6'şar adetle: `ctxpack`, `envsentinel`; 4'er adetle: `sparkcord`; 3'er adetle: `libredb/libredb-database`; 2'şer adetle: `awesome-developer-portfolios`; upstream repolarda 13 PR daha.</sub>
 
-**Issue:** 150 toplam · 4 açık
+**Issue:** 153 toplam · 4 açık
 
 | # | Repo | Issue |
 | ---: | --- | ---: |
-| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 55 |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 57 |
 | 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 3 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
-| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 13 |
+| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 14 |
 | 5 | [svgforge](https://github.com/KodYazicam/svgforge) | 12 |
 
 <sub>9'ar adetle: `hookyard`; 8'er adetle: `discord-music-panel`; 6'şar adetle: `Stribog-Bot`; 4'er adetle: `ctxpack`, `envsentinel`, `sparkcord`; 1'er adetle: `awesome-developer-portfolios` ve `libredb/libredb-studio`.</sub>
