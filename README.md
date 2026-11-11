@@ -58,25 +58,25 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
 
 As of 2026-11-12. Counts are authored by me across all repositories; historical work is included.
 
-**Pull requests:** 193 total · 177 merged
+**Pull requests:** 195 total · 179 merged
 
 | # | Repository | PRs |
 | ---: | --- | ---: |
-| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 51 |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 53 |
 | 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
 | 3 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 4= | [libredb/libredb-studio](https://github.com/libredb/libredb-studio), [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 16 each |
 
 <sub>Also at 13: `svgforge`; at 10: `discord-music-panel`, `hookyard`; at 8: `Stribog-Bot`; at 6: `ctxpack`, `envsentinel`; at 4: `sparkcord`; at 3: `libredb/libredb-database`; at 2: `awesome-developer-portfolios`; 13 further PRs in upstream repositories.</sub>
 
-**Issues:** 150 total · 4 open
+**Issues:** 153 total · 4 open
 
 | # | Repository | Issues |
 | ---: | --- | ---: |
-| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 55 |
+| 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 57 |
 | 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 3 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
-| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 13 |
+| 4 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 14 |
 | 5 | [svgforge](https://github.com/KodYazicam/svgforge) | 12 |
 
 <sub>Also at 9: `hookyard`; at 8: `discord-music-panel`; at 6: `Stribog-Bot`; at 4: `ctxpack`, `envsentinel`, `sparkcord`; at 1: `awesome-developer-portfolios` and `libredb/libredb-studio`.</sub>
