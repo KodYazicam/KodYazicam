@@ -58,14 +58,14 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
 
 As of 2026-11-12. Counts are authored by me across all repositories; historical work is included.
 
-**Pull requests:** 195 total · 179 merged
+**Pull requests:** 196 total · 180 merged
 
 | # | Repository | PRs |
 | ---: | --- | ---: |
 | 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 53 |
 | 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
-| 3 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
-| 4= | [libredb/libredb-studio](https://github.com/libredb/libredb-studio), [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 16 each |
+| 3= | [wabot-aq](https://github.com/KodYazicam/wabot-aq), [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 17 each |
+| 5 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
 
 <sub>Also at 13: `svgforge`; at 10: `discord-music-panel`, `hookyard`; at 8: `Stribog-Bot`; at 6: `ctxpack`, `envsentinel`; at 4: `sparkcord`; at 3: `libredb/libredb-database`; at 2: `awesome-developer-portfolios`; 13 further PRs in upstream repositories.</sub>
 
