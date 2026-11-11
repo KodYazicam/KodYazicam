@@ -1,6 +1,6 @@
 # The local-first developer toolkit
 
-Five small tools, one workflow. Each one solves a narrow problem and can be used alone. Together they cover the path from "my repo is too big for the model" to "I can verify what the vendor just sent me."
+Four small tools, one workflow. Each one solves a narrow problem and can be used alone. Together they cover the path from "my repo is too big for the model" to "I can verify what the vendor just sent me." The `kodyaz` umbrella is the in-progress fifth entry point.
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐

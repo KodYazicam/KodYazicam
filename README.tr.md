@@ -1,5 +1,6 @@
 <div align="center">
   <img src="./assets/banner.svg" alt="Batuhan — yapay zeka çağı için local-first geliştirici araçları" width="100%" />
+  <img src="./assets/pills.svg" alt="TypeScript, Python, MCP, offline-first, Apache-2.0" width="100%" />
 </div>
 
 # Merhaba, ben Batuhan
@@ -27,6 +28,10 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 > **Üzerinde çalışıyorum:** Tüm araçları tek bir CLI ve tek bir MCP sunucusu olarak açan `kodyaz` giriş noktası. [Suite mimarisi](./docs/SUITE.md).
 
+<div align="center">
+  <img src="./assets/terminal.svg" alt="Terminal: ctxpack, envsentinel, hookyard, svgforge" width="100%" />
+</div>
+
 ---
 
 ## Neden local-first?
@@ -43,7 +48,7 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 | Proje | Durum | Ne yapar? |
 | --- | --- | --- |
 | **[sparkcord](https://github.com/KodYazicam/sparkcord)** | beta | Dosya tabanlı Discord.js v14 framework'ü: slash + prefix komutlar, cooldown, yetki ve validator. |
-| **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | stable | Sunucu bazlı yönlendirme, filtreler ve 60 event anahtarı olan self-hosted Discord log botu. |
+| **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | active | Sunucu bazlı yönlendirme, filtreler, 88 event anahtarı, 24 grup, 18 dil ve event bazlı override'lar sunan self-hosted Discord log botu. |
 | **[discord-music-panel](https://github.com/KodYazicam/discord-music-panel)** | stable | React paneli olan self-hosted çoklu bot Discord müzik paneli. |
 | **[awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)** | community | Derlenmiş developer portfolyo listesi. MIT, katkıya açık. |
 
@@ -100,6 +105,10 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 - **Küçük yüzey.** Her şeyi yapan bir platform yerine tek ve keskin bir CLI.
 - **Sahte metrik yok.** Bir şey yayınlanmadıysa README bunu açıkça söyler.
 - **Sorumlu otomasyon.** [Politikayı oku](./ETHICS.md).
+
+<div align="center">
+  <img src="./assets/quote.svg" alt="Ship tools that work offline." width="100%" />
+</div>
 
 ---
 
