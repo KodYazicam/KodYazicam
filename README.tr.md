@@ -58,7 +58,7 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 2026-11-11 itibarıyla. Sayılar tüm repolarda benim açtığım PR ve issue'ları sayar; eski çalışmalar dahildir.
 
-**Pull request:** 188 toplam · 172 merge
+**Pull request:** 190 toplam · 174 merge
 
 | # | Repo | PR |
 | ---: | --- | ---: |
@@ -66,19 +66,18 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 | 2 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 18 |
 | 3 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 4 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 16 |
-| 5= | [KodYazicam](https://github.com/KodYazicam/KodYazicam), [svgforge](https://github.com/KodYazicam/svgforge) | 13'er |
+| 5 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 15 |
 
-<sub>10'ar adetle: `discord-music-panel`, `hookyard`; 8'er adetle: `Stribog-Bot`; 6'şar adetle: `ctxpack`, `envsentinel`; 4'er adetle: `sparkcord`; 3'er adetle: `libredb/libredb-database`; 2'şer adetle: `awesome-developer-portfolios`; upstream repolarda 13 PR daha.</sub>
+<sub>13'er adetle: `svgforge`; 10'ar adetle: `discord-music-panel`, `hookyard`; 8'er adetle: `Stribog-Bot`; 6'şar adetle: `ctxpack`, `envsentinel`; 4'er adetle: `sparkcord`; 3'er adetle: `libredb/libredb-database`; 2'şer adetle: `awesome-developer-portfolios`; upstream repolarda 13 PR daha.</sub>
 
-**Issue:** 145 toplam · 4 açık
+**Issue:** 147 toplam · 4 açık
 
 | # | Repo | Issue |
 | ---: | --- | ---: |
 | 1 | [LogYazicam](https://github.com/KodYazicam/LogYazicam) | 53 |
 | 2 | [wabot-aq](https://github.com/KodYazicam/wabot-aq) | 17 |
 | 3 | [KY-GamePlayer](https://github.com/KodYazicam/KY-GamePlayer) | 16 |
-| 4 | [svgforge](https://github.com/KodYazicam/svgforge) | 12 |
-| 5 | [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 10 |
+| 4= | [svgforge](https://github.com/KodYazicam/svgforge), [KodYazicam](https://github.com/KodYazicam/KodYazicam) | 12'şer |
 
 <sub>9'ar adetle: `hookyard`; 8'er adetle: `discord-music-panel`; 6'şar adetle: `Stribog-Bot`; 4'er adetle: `ctxpack`, `envsentinel`, `sparkcord`; 1'er adetle: `awesome-developer-portfolios` ve `libredb/libredb-studio`.</sub>
 
