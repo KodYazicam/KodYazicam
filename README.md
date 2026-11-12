@@ -48,7 +48,7 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
 | Project | Status | What it is |
 | --- | --- | --- |
 | **[sparkcord](https://github.com/KodYazicam/sparkcord)** | beta | File-based Discord.js v14 framework with slash + prefix commands, cooldowns, permissions, and a validator. |
-| **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | active | Self-hosted Discord logging bot with per-guild routing, filters, 88 event keys, 24 groups, 18 locales, and per-event overrides. |
+| **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | active · v2.0.0 | Self-hosted Discord logging bot with per-guild routing, filters, 88 event keys, 24 groups, 18 UI packs, per-event overrides, SQLite config, and Docker. |
 | **[discord-music-panel](https://github.com/KodYazicam/discord-music-panel)** | stable | Self-hosted multi-bot Discord music panel with a React dashboard. |
 | **[awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)** | community | Curated list of developer portfolios. MIT, contributions welcome. |
 

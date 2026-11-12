@@ -48,7 +48,7 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 | Proje | Durum | Ne yapar? |
 | --- | --- | --- |
 | **[sparkcord](https://github.com/KodYazicam/sparkcord)** | beta | Dosya tabanlı Discord.js v14 framework'ü: slash + prefix komutlar, cooldown, yetki ve validator. |
-| **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | active | Sunucu bazlı yönlendirme, filtreler, 88 event anahtarı, 24 grup, 18 dil ve event bazlı override'lar sunan self-hosted Discord log botu. |
+| **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | active · v2.0.0 | Sunucu bazlı yönlendirme, filtreler, 88 event anahtarı, 24 grup, 18 UI paketi, event bazlı override'lar, SQLite config ve Docker sunan self-hosted Discord log botu. |
 | **[discord-music-panel](https://github.com/KodYazicam/discord-music-panel)** | stable | React paneli olan self-hosted çoklu bot Discord müzik paneli. |
 | **[awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)** | community | Derlenmiş developer portfolyo listesi. MIT, katkıya açık. |
 
