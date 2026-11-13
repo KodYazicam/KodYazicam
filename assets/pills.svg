@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="116" viewBox="0 0 640 116" role="img" aria-label="Focus">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="204" viewBox="0 0 640 204" role="img" aria-label="Focus areas: TypeScript, Python, MCP, offline-first, Apache-2.0">
+  <rect width="640" height="204" fill="#FFFDF8"/>
+  <rect x="0.5" y="0.5" width="639" height="203" fill="none" stroke="#D8D0BF"/>
 
-  <rect width="640" height="116" rx="16" fill="#0f0c29" stroke="#302b63"/>
-  <text x="28" y="36" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700">Focus</text>
-  <rect x="28" y="64" width="108" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
-  <text x="82" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">TypeScript</text>
-  <rect x="146" y="64" width="76" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
-  <text x="184" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Python</text>
-  <rect x="232" y="64" width="52" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
-  <text x="258" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">MCP</text>
-  <rect x="294" y="64" width="132" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
-  <text x="360" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Offline-first</text>
-  <rect x="436" y="64" width="108" height="28" rx="14" fill="#24243e" stroke="#302b63"/>
-  <text x="490" y="83" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Apache-2.0</text>
+  <text x="34" y="50" fill="#17130F" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">Focus</text>
+  <text x="606" y="50" fill="#A8571B" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">05 ITEMS</text>
+  <line x1="34" y1="66" x2="606" y2="66" stroke="#D8D0BF"/>
 
+  <rect x="34" y="92" width="9" height="9" fill="#A8571B"/>
+  <text x="56" y="101" fill="#17130F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">TypeScript</text>
+
+  <rect x="332" y="92" width="9" height="9" fill="#0E6E63"/>
+  <text x="354" y="101" fill="#17130F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Offline-first</text>
+
+  <line x1="34" y1="118" x2="606" y2="118" stroke="#D8D0BF" stroke-opacity="0.7"/>
+  <rect x="34" y="127" width="9" height="9" fill="#A8571B"/>
+  <text x="56" y="136" fill="#17130F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Python</text>
+
+  <rect x="332" y="127" width="9" height="9" fill="#0E6E63"/>
+  <text x="354" y="136" fill="#17130F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Apache-2.0</text>
+
+  <line x1="34" y1="153" x2="606" y2="153" stroke="#D8D0BF" stroke-opacity="0.7"/>
+  <rect x="34" y="162" width="9" height="9" fill="#A8571B"/>
+  <text x="56" y="171" fill="#17130F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">MCP</text>
+
+  <line x1="34" y1="188" x2="606" y2="188" stroke="#D8D0BF" stroke-opacity="0.7"/>
 </svg>

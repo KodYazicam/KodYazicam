@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="144" viewBox="0 0 560 144" role="img" aria-label="Ship tools that work offline. No account">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="176" viewBox="0 0 620 176" role="img" aria-label="Quote: ship tools that work offline, with no accounts, no telemetry and no rate limits">
+  <rect width="620" height="176" fill="#FFFDF8"/>
+  <rect x="0.5" y="0.5" width="619" height="175" fill="none" stroke="#D8D0BF"/>
+  <rect x="0" y="0" width="6" height="176" fill="#0E6E63"/>
 
-  <rect width="560" height="144" rx="16" fill="#0f0c29" stroke="#302b63"/>
-  <text x="30" y="82" fill="#a78bfa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="64" font-weight="700">“</text>
-  <text x="64" y="74" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">Ship tools that work offline. No accounts, no</text>
-  <text x="64" y="98" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">telemetry, no rate limits.</text>
-  <text x="532" y="142" text-anchor="end" fill="#c4b5fd" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-style="italic">— Batuhan · KodYazicam</text>
+  <text x="586" y="42" fill="#A8571B" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">OFFLINE</text>
+  <rect x="558" y="52" width="8" height="8" fill="#A8571B"/>
+  <rect x="570" y="52" width="8" height="8" fill="#0E6E63"/>
+  <rect x="582" y="52" width="8" height="8" fill="#17130F" fill-opacity="0.25"/>
 
+  <text x="48" y="78" fill="#17130F" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic">Ship tools that work offline.</text>
+  <text x="48" y="108" fill="#17130F" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic">No accounts, no telemetry, no rate limits.</text>
+
+  <line x1="48" y1="128" x2="336" y2="128" stroke="#D8D0BF"/>
+  <text x="48" y="152" fill="#A8571B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.2">— Batuhan · KodYazicam</text>
 </svg>

@@ -13,8 +13,6 @@ I care about tools that are **small, offline by default, secure by design, and d
 
 [Flagship tools](#flagship-tools) · [Why local-first](#why-local-first) · [Also building](#also-building) · [Toolbox](#toolbox) · [How I work](#how-i-work) · [Contact](#contact)
 
----
-
 ## Flagship tools
 
 | Project | What it does | Install |
@@ -32,16 +30,12 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
   <img src="./assets/terminal.svg" alt="Terminal: ctxpack, envsentinel, hookyard, svgforge" width="100%" />
 </div>
 
----
-
 ## Why local-first?
 
 - **Your code stays yours.** No upload, no account, no telemetry.
 - **Works when the network does not.** Air-gapped machines, CI runners, locked-down laptops.
 - **Composable by design.** Plain files in, plain files out. Every tool is scriptable.
 - **Agent-ready.** MCP lets Claude, Cursor, and other clients call the tools directly.
-
----
 
 ## Also building
 
@@ -51,8 +45,6 @@ All four are **Apache-2.0**, **offline-first**, and **scriptable**. `ctxpack`, `
 | **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | active · v2.0.0 | Self-hosted Discord logging bot with per-guild routing, filters, 88 event keys, 24 groups, 18 UI packs, per-event overrides, SQLite config, and Docker. |
 | **[discord-music-panel](https://github.com/KodYazicam/discord-music-panel)** | stable | Self-hosted multi-bot Discord music panel with a React dashboard. |
 | **[awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)** | community | Curated list of developer portfolios. MIT, contributions welcome. |
-
----
 
 ## Contribution stats
 
@@ -97,8 +89,6 @@ As of 2026-11-13. Counts are authored by me across all repositories; historical 
 
 Currently deepening: PostgreSQL, Redis, and production observability.
 
----
-
 ## How I work
 
 - **Docs are part of the product.** Every repo ships install steps, examples, limits, and troubleshooting.
@@ -110,8 +100,6 @@ Currently deepening: PostgreSQL, Redis, and production observability.
 <div align="center">
   <img src="./assets/quote.svg" alt="Ship tools that work offline." width="100%" />
 </div>
-
----
 
 ## Contributing
 

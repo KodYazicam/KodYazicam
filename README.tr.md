@@ -13,8 +13,6 @@ Yapay zeka çağı için **local-first geliştirici araçları** yazıyorum: kay
 
 [Öne çıkan araçlar](#öne-çıkan-araçlar) · [Neden local-first?](#neden-local-first) · [Diğer projeler](#diğer-projeler) · [Araç kutusu](#araç-kutusu) · [Nasıl çalışıyorum](#nasıl-çalışıyorum) · [İletişim](#i̇letişim)
 
----
-
 ## Öne çıkan araçlar
 
 | Proje | Ne yapar? | Kurulum |
@@ -32,16 +30,12 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
   <img src="./assets/terminal.svg" alt="Terminal: ctxpack, envsentinel, hookyard, svgforge" width="100%" />
 </div>
 
----
-
 ## Neden local-first?
 
 - **Kodun sende kalır.** Upload yok, hesap yok, telemetri yok.
 - **Ağ yokken de çalışır.** Air-gapped makineler, CI runner'ları, kısıtlı laptoplar.
 - **Tasarımı gereği birleştirilebilir.** Girdi dosya, çıktı dosya. Her araç script'lenebilir.
 - **Ajanlara hazır.** MCP sayesinde Claude, Cursor ve diğer istemciler araçları doğrudan çağırabilir.
-
----
 
 ## Diğer projeler
 
@@ -51,8 +45,6 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 | **[LogYazicam](https://github.com/KodYazicam/LogYazicam)** | active · v2.0.0 | Sunucu bazlı yönlendirme, filtreler, 88 event anahtarı, 24 grup, 18 UI paketi, event bazlı override'lar, SQLite config ve Docker sunan self-hosted Discord log botu. |
 | **[discord-music-panel](https://github.com/KodYazicam/discord-music-panel)** | stable | React paneli olan self-hosted çoklu bot Discord müzik paneli. |
 | **[awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios)** | community | Derlenmiş developer portfolyo listesi. MIT, katkıya açık. |
-
----
 
 ## Katkı istatistikleri
 
@@ -95,8 +87,6 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 Şu anda derinleştiğim alanlar: PostgreSQL, Redis ve production observability.
 
----
-
 ## Nasıl çalışıyorum
 
 - **Dokümantasyon ürünün parçasıdır.** Her repoda kurulum, örnek, limit ve troubleshooting var.
@@ -108,8 +98,6 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 <div align="center">
   <img src="./assets/quote.svg" alt="Ship tools that work offline." width="100%" />
 </div>
-
----
 
 ## Katkı
 
