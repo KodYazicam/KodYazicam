@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="160" viewBox="0 0 880 160" role="img" aria-label="Batuhan">
+
+<defs>
+    <linearGradient id="grad-Batuhanmidnight-7fd97f77" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="160" rx="16" fill="url(#grad-Batuhanmidnight-7fd97f77)"/>
+  <circle cx="810" cy="40" r="90" fill="#7c3aed" fill-opacity="0.18"/>
+  <text x="44" y="48" fill="#a78bfa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" letter-spacing="3">TYPESCRIPT</text>
+  <text x="44" y="84" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="40" font-weight="700">Batuhan</text>
+  <text x="44" y="120" fill="#c4b5fd" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">Local-first developer tools for the AI era</text>
+
+</svg>

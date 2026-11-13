@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Batuhan — local-first developer tools</title>
+  <meta name="description" content="Local-first developer tools for the AI era: ctxpack, envsentinel, svgforge, and hookyard. TypeScript, Python, MCP, Apache-2.0.">
+  <meta property="og:title" content="Batuhan — local-first developer tools">
+  <meta property="og:description" content="CLIs and MCP servers that keep source code, secrets, and webhooks on your machine.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f0c29">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237C3AED%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22monospace%22>B</text></svg>">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f5ff;
+      --surface: #ffffff;
+      --surface-2: #f0ecff;
+      --text: #171321;
+      --muted: #5f5870;
+      --line: #ddd6f3;
+      --accent: #6d28d9;
+      --accent-2: #0f766e;
+      --code-bg: #171321;
+      --code-text: #ede9fe;
+      --shadow: 0 18px 50px rgba(45, 20, 90, .12);
+      --radius: 18px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0912;
+        --surface: #14101f;
+        --surface-2: #1b1530;
+        --text: #f5f2ff;
+        --muted: #b8aed4;
+        --line: #2c2444;
+        --accent: #a78bfa;
+        --accent-2: #5eead4;
+        --code-bg: #07060b;
+        --code-text: #e9e4ff;
+        --shadow: 0 18px 50px rgba(0, 0, 0, .45);
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(900px 420px at 12% -10%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 65%),
+        radial-gradient(700px 360px at 100% 0%, color-mix(in srgb, var(--accent-2) 12%, transparent), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-underline-offset: .18em; }
+    a:hover { text-decoration-thickness: .14em; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 6px; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    header.site { padding: 28px 0 8px; }
+    nav {
+      display: flex; align-items: center; justify-content: space-between; gap: 18px;
+      padding: 12px 0; border-bottom: 1px solid var(--line);
+    }
+    .brand { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; letter-spacing: -.02em; }
+    nav ul { display: flex; flex-wrap: wrap; gap: 18px; list-style: none; margin: 0; padding: 0; }
+    nav a { color: var(--muted); text-decoration: none; font-size: .95rem; }
+    nav a:hover { color: var(--text); }
+    .hero { padding: 46px 0 26px; }
+    .hero-art { display: block; width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .hero-copy { display: grid; grid-template-columns: 1.5fr 1fr; gap: 30px; align-items: end; margin-top: 26px; }
+    h1 { font-size: clamp(2rem, 4.6vw, 3.6rem); line-height: 1.05; letter-spacing: -.045em; margin: 0 0 12px; }
+    .lede { font-size: clamp(1.02rem, 1.6vw, 1.22rem); color: var(--muted); max-width: 62ch; margin: 0; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: flex-end; }
+    .button {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 11px 16px; border-radius: 999px; border: 1px solid var(--line);
+      background: var(--surface); color: var(--text); text-decoration: none; font-weight: 650; font-size: .95rem;
+      transition: transform .15s ease, border-color .15s ease;
+    }
+    .button:hover { transform: translateY(-1px); border-color: var(--accent); }
+    .button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    section { padding: 54px 0; }
+    .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+    h2 { font-size: clamp(1.45rem, 2.6vw, 2rem); letter-spacing: -.03em; margin: 0; }
+    .section-head p { color: var(--muted); margin: 0; max-width: 56ch; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 22px; box-shadow: 0 1px 0 rgba(255,255,255,.03) inset;
+    }
+    .card h3 { margin: 0 0 6px; font-size: 1.15rem; letter-spacing: -.02em; }
+    .card h3 a { text-decoration: none; }
+    .card p { color: var(--muted); margin: 0 0 16px; }
+    .tag {
+      display: inline-block; padding: 3px 9px; border-radius: 999px;
+      background: var(--surface-2); border: 1px solid var(--line);
+      color: var(--muted); font-size: .76rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    pre {
+      margin: 0; padding: 13px 14px; border-radius: 12px; overflow-x: auto;
+      background: var(--code-bg); color: var(--code-text);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .86rem;
+    }
+    .points { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+    .point { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+    .point strong { display: block; margin-bottom: 4px; }
+    .point span { color: var(--muted); font-size: .93rem; }
+    .also { display: flex; flex-wrap: wrap; gap: 10px; }
+    .also a {
+      display: inline-flex; align-items: center; gap: 8px; padding: 9px 13px;
+      border: 1px solid var(--line); border-radius: 999px; background: var(--surface);
+      color: var(--text); text-decoration: none; font-size: .93rem;
+    }
+    .also a:hover { border-color: var(--accent); }
+    .also small { color: var(--muted); }
+    .quote { margin: 38px 0 0; }
+    .quote img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
+    footer { border-top: 1px solid var(--line); margin-top: 34px; padding: 26px 0 44px; color: var(--muted); font-size: .9rem; }
+    footer .row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+    code.inline { background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
+    @media (max-width: 860px) {
+      .hero-copy { grid-template-columns: 1fr; }
+      .hero-actions { justify-content: flex-start; }
+      .grid { grid-template-columns: 1fr; }
+      .points { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 520px) {
+      .points { grid-template-columns: 1fr; }
+      nav { align-items: flex-start; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .button { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <nav aria-label="Primary">
+        <span class="brand">kodyazicam</span>
+        <ul>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#why">Why local-first</a></li>
+          <li><a href="#also">Also building</a></li>
+          <li><a href="#contribute">Contribute</a></li>
+          <li><a href="https://github.com/KodYazicam">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <img class="hero-art" src="assets/banner.svg" alt="Batuhan — local-first developer tools for the AI era" width="880" height="160">
+      <div class="hero-copy">
+        <div>
+          <h1 id="hero-title">Tools that stay on your machine.</h1>
+          <p class="lede">I build small, offline-first CLIs and MCP servers for developers and AI agents. No account, no upload, no telemetry.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="#tools">Explore the suite</a>
+          <a class="button" href="https://github.com/KodYazicam">View GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" id="tools" aria-labelledby="tools-title">
+      <div class="section-head">
+        <h2 id="tools-title">Flagship tools</h2>
+        <p>Four Apache-2.0 tools. Three are on npm; hookyard installs from source.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">npm · TypeScript</span>
+          <h3><a href="https://github.com/KodYazicam/ctxpack">ctxpack</a></h3>
+          <p>Packs a repository into an LLM-ready prompt. Respects <code class="inline">.gitignore</code>, budgets tokens, redacts secrets. Ships an MCP server.</p>
+          <pre><code>npm i -g @kodyazicam/ctxpack
+ctxpack . -o prompt.md</code></pre>
+        </article>
+        <article class="card">
+          <span class="tag">npm · TypeScript</span>
+          <h3><a href="https://github.com/KodYazicam/envsentinel">envsentinel</a></h3>
+          <p>Validates <code class="inline">.env</code> against a JSON schema, scans for leaked secrets, and generates <code class="inline">.env.example</code> plus TypeScript types.</p>
+          <pre><code>npm i -g @kodyazicam/envsentinel
+envsentinel check</code></pre>
+        </article>
+        <article class="card">
+          <span class="tag">npm · TypeScript</span>
+          <h3><a href="https://github.com/KodYazicam/svgforge">svgforge</a></h3>
+          <p>Generates README banners, cards, and stats as committed SVG files. 32 card types, 22 themes, no render service.</p>
+          <pre><code>npm i -g @kodyazicam/svgforge
+svgforge banner --title hello</code></pre>
+        </article>
+        <article class="card">
+          <span class="tag">Python · source install</span>
+          <h3><a href="https://github.com/KodYazicam/hookyard">hookyard</a></h3>
+          <p>Inspects, verifies, and replays webhooks locally. GitHub, Stripe, Slack, and Discord signatures; SSRF-safe replay.</p>
+          <pre><code>git clone https://github.com/KodYazicam/hookyard
+cd hookyard &amp;&amp; pip install -e .
+hookyard --port 4242</code></pre>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="why" aria-labelledby="why-title">
+      <div class="section-head">
+        <h2 id="why-title">Why local-first?</h2>
+        <p>The shortest path between your data and the result is the machine you are already using.</p>
+      </div>
+      <div class="points">
+        <div class="point"><strong>Your code stays yours</strong><span>No upload, no account, no telemetry.</span></div>
+        <div class="point"><strong>Works offline</strong><span>Air-gapped machines, CI runners, locked-down laptops.</span></div>
+        <div class="point"><strong>Composable</strong><span>Plain files in, plain files out. Every tool is scriptable.</span></div>
+        <div class="point"><strong>Agent-ready</strong><span>MCP lets Claude, Cursor, and other clients call the tools directly.</span></div>
+      </div>
+      <div class="quote">
+        <img src="assets/terminal.svg" alt="Terminal showing ctxpack, envsentinel, hookyard, and svgforge commands" width="720" height="160">
+      </div>
+    </section>
+
+    <section class="wrap" id="also" aria-labelledby="also-title">
+      <div class="section-head">
+        <h2 id="also-title">Also building</h2>
+        <p>Adjacent work, kept honest about its status.</p>
+      </div>
+      <div class="also">
+        <a href="https://github.com/KodYazicam/sparkcord">sparkcord <small>beta</small></a>
+        <a href="https://github.com/KodYazicam/LogYazicam" title="88 event keys, 24 groups, 18 UI packs, SQLite routing, Docker">LogYazicam <small>active · v2.0.0</small></a>
+        <a href="https://github.com/KodYazicam/discord-music-panel">discord-music-panel <small>stable</small></a>
+        <a href="https://github.com/KodYazicam/awesome-developer-portfolios">awesome-developer-portfolios <small>community</small></a>
+      </div>
+    </section>
+    <section class="wrap" id="contribute" aria-labelledby="contribute-title">
+      <div class="section-head">
+        <h2 id="contribute-title">Contribute</h2>
+        <p>Small, scoped issues are ready. Pick one and open a PR.</p>
+      </div>
+      <div class="also">
+        <a href="https://github.com/KodYazicam/ctxpack/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">ctxpack <small>good first issue</small></a>
+        <a href="https://github.com/KodYazicam/envsentinel/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">envsentinel <small>good first issue</small></a>
+        <a href="https://github.com/KodYazicam/svgforge/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">svgforge <small>good first issue</small></a>
+        <a href="https://github.com/KodYazicam/sparkcord/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">sparkcord <small>good first issue</small></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap row">
+      <span>© 2026 Batuhan · KodYazicam</span>
+      <span>
+        <a href="https://github.com/KodYazicam/KodYazicam/blob/main/ETHICS.md">Ethics</a> ·
+        <a href="https://github.com/KodYazicam/KodYazicam/blob/main/docs/SUITE.md">Suite</a> ·
+        <a href="https://github.com/KodYazicam">GitHub</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
