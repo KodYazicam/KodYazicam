@@ -75,7 +75,7 @@ As of 2026-11-13. Counts are authored by me across all repositories; historical 
 | 9= | [ctxpack](https://github.com/KodYazicam/ctxpack), [envsentinel](https://github.com/KodYazicam/envsentinel), [sparkcord](https://github.com/KodYazicam/sparkcord) | 4 each |
 | 12= | [awesome-developer-portfolios](https://github.com/KodYazicam/awesome-developer-portfolios), [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 1 each |
 
-<sub>Open: <a href="https://github.com/KodYazicam/LogYazicam/issues/120">LogYazicam#120</a>, <a href="https://github.com/KodYazicam/discord-music-panel/issues/23">discord-music-panel#23</a>, <a href="https://github.com/KodYazicam/discord-music-panel/issues/27">discord-music-panel#27</a>, <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (assigned to <a href="https://github.com/bongurishi">@bongurishi</a>).</sub>
+<sub>Open: <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (assigned to <a href="https://github.com/bongurishi">@bongurishi</a>) · <a href="https://github.com/search?q=user%3AKodYazicam+is%3Aissue+is%3Aopen&amp;type=issues">all open issues</a>.</sub>
 
 
 ---
