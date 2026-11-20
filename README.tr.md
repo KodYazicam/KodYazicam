@@ -73,7 +73,7 @@ Dördü de **Apache-2.0**, **offline-first** ve **scriptable**. `ctxpack`, `envs
 
 <sub>9'ar adetle: `hookyard`; 8'er adetle: `discord-music-panel`; 6'şar adetle: `Stribog-Bot`; 4'er adetle: `ctxpack`, `envsentinel`, `sparkcord`; 1'er adetle: `awesome-developer-portfolios` ve `libredb/libredb-studio`.</sub>
 
-<sub>Açık: <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (<a href="https://github.com/bongurishi">@bongurishi</a>'ye atandı), <a href="https://github.com/KodYazicam/discord-music-panel/issues/23">discord-music-panel#23</a>, <a href="https://github.com/KodYazicam/Stribog-Bot/issues/19">Stribog-Bot#19</a>, <a href="https://github.com/KodYazicam/svgforge/issues/32">svgforge#32</a>.</sub>
+<sub>Açık: <a href="https://github.com/KodYazicam/sparkcord/issues/8">sparkcord#8</a> (<a href="https://github.com/bongurishi">@bongurishi</a>'ye atandı) · <a href="https://github.com/search?q=user%3AKodYazicam+is%3Aissue+is%3Aopen&amp;type=issues">tüm açık issue'lar</a>.</sub>
 
 
 ---
